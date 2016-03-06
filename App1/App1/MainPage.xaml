@@ -7,14 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Image x:Name="Background" Source="Images/StickmanBackgroundMain.png" Height="737" Margin="0,-229,0,132" HorizontalAlignment="Right" Width="360"/>
-        <Image x:Name="Stickman" Source="Images/Stickman.png" Margin="-71,230,0,0" HorizontalAlignment="Left" Width="360"/>
-        <Image x:Name="ButtonPress" Source="Images/ButtonClick.png" Margin="-28,488,188,-48" HorizontalAlignment="Right" Height="200" Width="200"/>
-        <Image x:Name="ButtonPress2" Source="Images/ButtonClick2.png" Margin="-28,488,-10,-48" HorizontalAlignment="Right" Height="200" Width="200"/>
-
-        <Button x:Name="PlayButton" Content="Play" HorizontalAlignment="Left" Margin="46,558,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="HighScores" Content="Highscores" HorizontalAlignment="Left" Margin="222,558,0,0" VerticalAlignment="Top"/>
+    <Grid x:Name="grdSSprint" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0">
+        <Image x:Name="imgBackgroundMain" Source="images/StickmanBackgroundMain.png" HorizontalAlignment="Left" Height="295" VerticalAlignment="Top" Width="371" Margin="0,0,-11,0"/>
+        <Image x:Name="imgStickman" Source="images/Stickman.png" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="198" Margin="0,295,0,0"/>
+        <Image x:Name="imgButtonClick" Source="images/ButtonClick.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="71,481,0,0"/>
+        <Image x:Name="imgButtonClick2" Source="images/ButtonClick2.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="218,481,0,0"/>
+        <Button x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Margin="76,487,0,0" VerticalAlignment="Top" Click="btnPlay_Click"/>
+        <Button x:Name="btnHighScore" Content="Highscores" HorizontalAlignment="Left" Margin="198,487,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

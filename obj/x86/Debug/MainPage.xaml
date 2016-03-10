@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Storyboard x:ConnectionId='1' x:Name="StoryboardStickman">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="imgStickman" RepeatBehavior="Forever">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="imgButtonClick" RepeatBehavior="Forever">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="imgButtonClick2" RepeatBehavior="Forever">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
+
+    <Grid x:ConnectionId='2' x:Name="grdSSprint" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0">
+        <Image x:ConnectionId='3' x:Name="imgBackgroundMain" Source="images/StickmanBackgroundMain.png" HorizontalAlignment="Left" Height="295" VerticalAlignment="Top" Width="371" Margin="0,0,-11,0"/>
+        <Image x:ConnectionId='4' x:Name="imgStickmanCheering" Source="images/StickmanCheering.png" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="198" Margin="0,295,0,0"/>
+        <Image x:ConnectionId='5' x:Name="imgStickman" Source="images/Stickman.png" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="198" Margin="0,295,0,0"/>
+        <Image x:ConnectionId='6' x:Name="imgButtonClick1" Source="images/ButtonClick1.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="71,481,0,0"/>
+        <Image x:ConnectionId='7' x:Name="imgButtonClick" Source="images/ButtonClick.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="71,481,0,0"/>
+        <Image x:ConnectionId='8' x:Name="imgButtonClick3" Source="images/ButtonClick3.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="218,481,0,0"/>
+        <Image x:ConnectionId='9' x:Name="imgButtonClick2" Source="images/ButtonClick2.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="218,481,0,0"/>
+        <Button x:ConnectionId='10' x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Margin="76,487,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='11' x:Name="btnHighScore" Content="Highscores" HorizontalAlignment="Left" Margin="198,487,0,0" VerticalAlignment="Top"                           />
+
+    </Grid>
+</Page>
+

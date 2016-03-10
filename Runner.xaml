@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="App1.Runner"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+    <Page.Resources>
+        <Storyboard x:Name="StoryboardRunning">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="imgStickmanRunning1" RepeatBehavior="Forever">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="imgButtonClick2" RepeatBehavior="Forever">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="imgButtonClick4" RepeatBehavior="Forever">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="imgButtonClick3" Source="images/ButtonClick3.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="218,481,0,0"/>
+        <Image x:Name="imgButtonClick2" Source="images/ButtonClick2.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="218,481,0,0"/>
+        <Image x:Name="imgButtonClick5" Source="images/ButtonClick5.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="96,481,0,0"/>
+        <Image x:Name="imgButtonClick4" Source="images/ButtonClick4.png" HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Margin="96,481,0,0"/>
+        <Button x:Name="btnBack" Content="Homepage" HorizontalAlignment="Left" Margin="76,487,0,0" VerticalAlignment="Top" Click="btnBack_Click"/>
+        <Button x:Name="btnHighScore" Content="Highscores" HorizontalAlignment="Left" Margin="198,487,0,0" VerticalAlignment="Top" Click="btnHighScore_Click"/>
+        <Image x:Name="imgBackgroundMain" Source="images/StickmanBackground.png" HorizontalAlignment="Left" Height="295" VerticalAlignment="Top" Width="371" Margin="0,0,-11,0"/>
+        <Image x:Name="imgStickmanRunning2" Source="images/StickmanRunningStage2.png" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="198" Margin="0,295,0,0"/>
+        <Image x:Name="imgStickmanRunning1" Source="images/StickmanRunningStage1.png" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="198" Margin="0,295,0,0"/>
+        <StackPanel>
+        <TextBlock x:Name="tblHighscore" Text="" Margin="0,250,0,0"
+                     Style="{StaticResource TitleTextBlockStyle}"/>
+        </StackPanel>
+    </Grid>
+</Page>

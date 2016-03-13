@@ -24,15 +24,17 @@ namespace App1
     public sealed partial class Runner : Page
     {
 
-        
+
         public Runner()
         {
             this.InitializeComponent();
             StoryboardRunning.Begin();
-           
+            sbShuriken.Begin();
         }
 
-        
+       
+
+       
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
@@ -55,7 +57,7 @@ namespace App1
         {
             dispatcherTimer = new DispatcherTimer();
             dispatcherTimer.Tick += dispatcherTimer_Tick;
-            dispatcherTimer.Interval = new TimeSpan(0, 0, 0, 1);
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 0, 0);
             //IsEnabled defaults to false 
             //tblHighscore.Text += "dispatcherTimer.IsEnabled = " + dispatcherTimer.IsEnabled + "\n";
             startTime = DateTimeOffset.Now;

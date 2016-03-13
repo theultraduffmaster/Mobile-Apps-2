@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:Name="shuriken1"
     x:Class="App1.Runner"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -45,6 +45,42 @@
                 </DiscreteObjectKeyFrame>
             </ObjectAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Name="sbShuriken2" RepeatBehavior="3x">
+            <DoubleAnimation Duration="0:0:5" To="-1634.667" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="shuriken" d:IsOptimized="True">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase EasingMode="EaseOut"/>
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+            <DoubleAnimation Duration="0:0:5" To="-5.333" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="shuriken" d:IsOptimized="True">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase EasingMode="EaseOut"/>
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+        </Storyboard>
+        <Storyboard x:Name="sbShuriken" RepeatBehavior="3x">
+            <DoubleAnimation Duration="0:0:2" To="-1636" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="shuriken">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase EasingMode="EaseIn"/>
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+            <DoubleAnimation Duration="0:0:2" To="-2.667" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="shuriken" d:IsOptimized="True">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase EasingMode="EaseIn"/>
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+        </Storyboard>
+        <Storyboard x:Name="sbShuriken3" RepeatBehavior="3x">
+            <DoubleAnimation Duration="0:0:8" To="-1602.667" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="shuriken" d:IsOptimized="True">
+                <DoubleAnimation.EasingFunction>
+                    <ElasticEase EasingMode="EaseIn" Oscillations="2" Springiness="1"/>
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+            <DoubleAnimation Duration="0:0:8" To="-8" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="shuriken" d:IsOptimized="True">
+                <DoubleAnimation.EasingFunction>
+                    <ElasticEase EasingMode="EaseIn" Oscillations="2" Springiness="1"/>
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+        </Storyboard>
     </Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -57,8 +93,14 @@
         <Image x:Name="imgBackgroundMain" Source="images/StickmanBackground.png" HorizontalAlignment="Left" Height="295" VerticalAlignment="Top" Width="371" Margin="0,0,-11,0"/>
         <Image x:Name="imgStickmanRunning2" Source="images/StickmanRunningStage2.png" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="198" Margin="0,295,0,0"/>
         <Image x:Name="imgStickmanRunning1" Source="images/StickmanRunningStage1.png" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="198" Margin="0,295,0,0"/>
+        <Image x:Name="shuriken" Source="images/Shuriken.png" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="80" Margin="1500,329,-2128,0" RenderTransformOrigin="5.383,1.833">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+
         <StackPanel>
-        <TextBlock x:Name="tblHighscore" Text="" Margin="0,250,0,0"
+            <TextBlock x:Name="tblHighscore" Text="" Margin="0,150,0,0"
                      Style="{StaticResource TitleTextBlockStyle}"/>
         </StackPanel>
     </Grid>

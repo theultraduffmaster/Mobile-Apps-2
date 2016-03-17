@@ -360,6 +360,9 @@
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick5.png">
       <PackagePath>Images\ButtonClick5.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Shuriken.png">
+      <PackagePath>Images\Shuriken.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\StickmanBackground.png">
       <PackagePath>Images\StickmanBackground.png</PackagePath>
     </AppxPackagedFile>

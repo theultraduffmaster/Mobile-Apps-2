@@ -360,6 +360,39 @@
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick5.png">
       <PackagePath>Images\ButtonClick5.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick6.png">
+      <PackagePath>Images\ButtonClick6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick7.png">
+      <PackagePath>Images\ButtonClick7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick8.png">
+      <PackagePath>Images\ButtonClick8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick9.png">
+      <PackagePath>Images\ButtonClick9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Hangman.png">
+      <PackagePath>Images\Hangman.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Hangman1.png">
+      <PackagePath>Images\Hangman1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Hangman2.png">
+      <PackagePath>Images\Hangman2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Hangman3.png">
+      <PackagePath>Images\Hangman3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Hangman4.png">
+      <PackagePath>Images\Hangman4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Hangman5.png">
+      <PackagePath>Images\Hangman5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\HangmanEnd.png">
+      <PackagePath>Images\HangmanEnd.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Shuriken.png">
       <PackagePath>Images\Shuriken.png</PackagePath>
     </AppxPackagedFile>

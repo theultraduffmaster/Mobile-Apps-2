@@ -98,6 +98,17 @@
     <Content Include="Images\ButtonClick3.png" />
     <Content Include="Images\ButtonClick4.png" />
     <Content Include="Images\ButtonClick5.png" />
+    <Content Include="Images\ButtonClick6.png" />
+    <Content Include="Images\ButtonClick7.png" />
+    <Content Include="Images\ButtonClick8.png" />
+    <Content Include="Images\ButtonClick9.png" />
+    <Content Include="Images\Hangman.png" />
+    <Content Include="Images\Hangman1.png" />
+    <Content Include="Images\Hangman2.png" />
+    <Content Include="Images\Hangman3.png" />
+    <Content Include="Images\Hangman4.png" />
+    <Content Include="Images\Hangman5.png" />
+    <Content Include="Images\HangmanEnd.png" />
     <Content Include="Images\Shuriken.png" />
     <Content Include="Images\StickmanBackground.png" />
     <Content Include="Images\StickmanBackgroundMain.png" />
@@ -112,6 +123,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Globalclass.cs" />
+    <Compile Include="Hangman.xaml.cs">
+      <DependentUpon>Hangman.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Highscores.xaml.cs">
       <DependentUpon>Highscores.xaml</DependentUpon>
     </Compile>
@@ -119,6 +134,51 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RockPaperScissors.xaml.cs">
+      <DependentUpon>RockPaperScissors.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RockPaperScissorsLevel2.xaml.cs">
+      <DependentUpon>RockPaperScissorsLevel2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RockPaperScissorsLevel3.xaml.cs">
+      <DependentUpon>RockPaperScissorsLevel3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RockPaperScissorsLevel4.xaml.cs">
+      <DependentUpon>RockPaperScissorsLevel4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RockPaperScissorsLevel5.xaml.cs">
+      <DependentUpon>RockPaperScissorsLevel5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RockPaperScissorsLevel6.xaml.cs">
+      <DependentUpon>RockPaperScissorsLevel6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RockPaperScissorsLevel7.xaml.cs">
+      <DependentUpon>RockPaperScissorsLevel7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBoss.xaml.cs">
+      <DependentUpon>RPSBoss.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBossLevel1.xaml.cs">
+      <DependentUpon>RPSBossLevel1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBossLevel2.xaml.cs">
+      <DependentUpon>RPSBossLevel2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBossLevel3.xaml.cs">
+      <DependentUpon>RPSBossLevel3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBossLevel4.xaml.cs">
+      <DependentUpon>RPSBossLevel4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBossLevel5.xaml.cs">
+      <DependentUpon>RPSBossLevel5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBossLevel6.xaml.cs">
+      <DependentUpon>RPSBossLevel6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPSBossLevel7.xaml.cs">
+      <DependentUpon>RPSBossLevel7.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Runner.xaml.cs">
       <DependentUpon>Runner.xaml</DependentUpon>
     </Compile>
@@ -147,6 +207,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Hangman.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Highscores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -154,6 +218,66 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RockPaperScissors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RockPaperScissorsLevel2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RockPaperScissorsLevel3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RockPaperScissorsLevel4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RockPaperScissorsLevel5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RockPaperScissorsLevel6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RockPaperScissorsLevel7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBoss.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBossLevel1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBossLevel2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBossLevel3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBossLevel4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBossLevel5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBossLevel6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RPSBossLevel7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Runner.xaml">
       <SubType>Designer</SubType>

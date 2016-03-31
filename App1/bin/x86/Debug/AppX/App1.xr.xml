@@ -11,6 +11,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
       <RootProperty Name="Children" />
+      <RootProperty Name="Duration" />
       <RootProperty Name="RepeatBehavior" />
       <RootMethod Name="GetTargetProperty" />
       <RootMethod Name="SetTargetProperty" />
@@ -47,29 +48,55 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsEnabled" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Style" />
+      <RootProperty Name="IsEnabled" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="App1.Hangman" />
     <RootType FullName="App1.Highscores" />
     <RootType FullName="App1.MainPage" />
+    <RootType FullName="App1.RockPaperScissors" />
+    <RootType FullName="App1.RockPaperScissorsLevel2" />
+    <RootType FullName="App1.RockPaperScissorsLevel3" />
+    <RootType FullName="App1.RockPaperScissorsLevel4" />
+    <RootType FullName="App1.RockPaperScissorsLevel5" />
+    <RootType FullName="App1.RockPaperScissorsLevel6" />
+    <RootType FullName="App1.RockPaperScissorsLevel7" />
+    <RootType FullName="App1.RPSBoss" />
+    <RootType FullName="App1.RPSBossLevel1" />
+    <RootType FullName="App1.RPSBossLevel2" />
+    <RootType FullName="App1.RPSBossLevel3" />
+    <RootType FullName="App1.RPSBossLevel4" />
+    <RootType FullName="App1.RPSBossLevel5" />
+    <RootType FullName="App1.RPSBossLevel6" />
+    <RootType FullName="App1.RPSBossLevel7" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
       <RootProperty Name="Duration" />
       <RootProperty Name="To" />
       <RootProperty Name="EasingFunction" />
+      <RootProperty Name="BeginTime" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.ElasticEase">
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.BounceEase">
       <RootProperty Name="EasingMode" />
-      <RootProperty Name="Oscillations" />
-      <RootProperty Name="Springiness" />
+      <RootProperty Name="Bounces" />
+      <RootProperty Name="Bounciness" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.CircleEase">
       <RootProperty Name="EasingMode" />
@@ -77,7 +104,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
     <RootType FullName="App1.Runner" />
   </Roots.RootTypes>

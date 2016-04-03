@@ -59,6 +59,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="IsEnabled" />
+      <RootProperty Name="IsReadOnly" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -82,7 +83,6 @@
     <RootType FullName="App1.RockPaperScissorsLevel6" />
     <RootType FullName="App1.RockPaperScissorsLevel7" />
     <RootType FullName="App1.RPSBoss" />
-    <RootType FullName="App1.RPSBossLevel1" />
     <RootType FullName="App1.RPSBossLevel2" />
     <RootType FullName="App1.RPSBossLevel3" />
     <RootType FullName="App1.RPSBossLevel4" />

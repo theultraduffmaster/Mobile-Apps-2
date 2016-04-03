@@ -103,6 +103,7 @@
     <Content Include="Images\ButtonClick7.png" />
     <Content Include="Images\ButtonClick8.png" />
     <Content Include="Images\ButtonClick9.png" />
+    <Content Include="Images\eye.jpg" />
     <Content Include="Images\Hangman.png" />
     <Content Include="Images\Hangman1.png" />
     <Content Include="Images\Hangman2.png" />
@@ -112,6 +113,7 @@
     <Content Include="Images\HangmanEnd.png" />
     <Content Include="Images\lizard.jpg" />
     <Content Include="Images\paper.jpg" />
+    <Content Include="Images\question.jpg" />
     <Content Include="Images\rock.png" />
     <Content Include="Images\scientist.png" />
     <Content Include="Images\scissors.png" />
@@ -164,9 +166,6 @@
     </Compile>
     <Compile Include="RPSBoss.xaml.cs">
       <DependentUpon>RPSBoss.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RPSBossLevel1.xaml.cs">
-      <DependentUpon>RPSBossLevel1.xaml</DependentUpon>
     </Compile>
     <Compile Include="RPSBossLevel2.xaml.cs">
       <DependentUpon>RPSBossLevel2.xaml</DependentUpon>
@@ -255,10 +254,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RPSBoss.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="RPSBossLevel1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

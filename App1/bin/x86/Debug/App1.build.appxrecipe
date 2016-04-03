@@ -345,11 +345,17 @@
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\bull.jpg">
       <PackagePath>Images\bull.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\eye.jpg">
+      <PackagePath>Images\eye.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\lizard.jpg">
       <PackagePath>Images\lizard.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\paper.jpg">
       <PackagePath>Images\paper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\question.jpg">
+      <PackagePath>Images\question.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick.png">
       <PackagePath>Images\ButtonClick.png</PackagePath>

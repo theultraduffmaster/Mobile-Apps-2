@@ -342,6 +342,15 @@
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\bull.jpg">
+      <PackagePath>Images\bull.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\lizard.jpg">
+      <PackagePath>Images\lizard.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\paper.jpg">
+      <PackagePath>Images\paper.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\ButtonClick.png">
       <PackagePath>Images\ButtonClick.png</PackagePath>
     </AppxPackagedFile>
@@ -393,6 +402,15 @@
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\HangmanEnd.png">
       <PackagePath>Images\HangmanEnd.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\rock.png">
+      <PackagePath>Images\rock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\scientist.png">
+      <PackagePath>Images\scientist.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\scissors.png">
+      <PackagePath>Images\scissors.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\Shuriken.png">
       <PackagePath>Images\Shuriken.png</PackagePath>
     </AppxPackagedFile>
@@ -404,6 +422,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\StickmanCheering.png">
       <PackagePath>Images\StickmanCheering.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\Images\well.png">
+      <PackagePath>Images\well.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\StickmanBackground.png">
       <PackagePath>StickmanBackground.png</PackagePath>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DECLAN-TOSH</Machine>
+    <WindowsUser>Declan</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>975beb53-0cdb-4a97-ac01-1322560f4c2d</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\obj\ARM\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\App1.dll">
+      <PackagePath>App1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\bull.jpg">
+      <PackagePath>Images\bull.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick.png">
+      <PackagePath>Images\ButtonClick.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick1.png">
+      <PackagePath>Images\ButtonClick1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick2.png">
+      <PackagePath>Images\ButtonClick2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick3.png">
+      <PackagePath>Images\ButtonClick3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick4.png">
+      <PackagePath>Images\ButtonClick4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick5.png">
+      <PackagePath>Images\ButtonClick5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick6.png">
+      <PackagePath>Images\ButtonClick6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick7.png">
+      <PackagePath>Images\ButtonClick7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick8.png">
+      <PackagePath>Images\ButtonClick8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\ButtonClick9.png">
+      <PackagePath>Images\ButtonClick9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\eye.jpg">
+      <PackagePath>Images\eye.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Hangman.png">
+      <PackagePath>Images\Hangman.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Hangman1.png">
+      <PackagePath>Images\Hangman1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Hangman2.png">
+      <PackagePath>Images\Hangman2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Hangman3.png">
+      <PackagePath>Images\Hangman3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Hangman4.png">
+      <PackagePath>Images\Hangman4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Hangman5.png">
+      <PackagePath>Images\Hangman5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\HangmanEnd.png">
+      <PackagePath>Images\HangmanEnd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\lizard.jpg">
+      <PackagePath>Images\lizard.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\paper.jpg">
+      <PackagePath>Images\paper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\question.jpg">
+      <PackagePath>Images\question.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\rock.png">
+      <PackagePath>Images\rock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\scientist.png">
+      <PackagePath>Images\scientist.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\scissors.png">
+      <PackagePath>Images\scissors.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Shuriken.png">
+      <PackagePath>Images\Shuriken.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\Stickman.png">
+      <PackagePath>Images\Stickman.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\StickmanBackground.png">
+      <PackagePath>Images\StickmanBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\StickmanBackgroundMain.png">
+      <PackagePath>Images\StickmanBackgroundMain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\StickmanCheering.png">
+      <PackagePath>Images\StickmanCheering.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\StickmanRunningStage1.png">
+      <PackagePath>Images\StickmanRunningStage1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\StickManRunningStage2.png">
+      <PackagePath>Images\StickManRunningStage2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\Images\well.png">
+      <PackagePath>Images\well.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\Documents\Visual Studio 2015\Projects\App1\App1\bin\ARM\Release\ilc\StickmanBackground.png">
+      <PackagePath>StickmanBackground.png</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
